@@ -48,33 +48,34 @@ body {
 }
 
 .app {
-  margin: 3% auto;
+  margin: 5rem auto;
   display: flex;
-  width: 70%;
+  width: 80%;
   justify-content: center;
-  gap: 50px;
+  gap: 140px;
   min-width: 520px;
 }
 
 .scoreboard {
-  width: 240px;
+  min-width: 600px;
   display: grid;
-  grid-template-rows: 75px 55px 75px;
-  padding-top: 25px;
+  grid-template-rows: 180px 150px 150px;
+  padding-top: 50px;
 }
 
 .winnerdisplay {
   font-family: "FNL";
-  font-size: 48px;
+  font-size: 120px;
   text-align: center;
+  color: white;
 }
 
 .scores {
   margin: 0 auto;
   display: flex;
-  gap: 30px;
+  gap: 60px;
   font-family: "CD";
-  font-size: 40px;
+  font-size: 100px;
   font-weight: bold;
 }
 
@@ -93,10 +94,11 @@ body {
 .resetscore {
   cursor: pointer;
   font-family: "VT323";
-  font-size: 24px;
-  margin: 0 auto;
+  font-size: 80px;
+  margin: 1rem auto;
   width: max-content;
   height: max-content;
+  color:white;
 }
 
 .resetscore:hover {
@@ -106,24 +108,26 @@ body {
 .board {
   display: grid;
   gap: 0px;
-  grid-template-columns: repeat(3, 80px);
-  grid-template-rows: repeat(3, 80px);
+  grid-template-columns: repeat(3, 180px);
+  grid-template-rows: repeat(3, 180px);
   justify-content: space-evenly;
   width: max-content;
   margin: 3% auto;
 }
 
 .board > div {
-  border-top: 1px solid white;
-  border-left: 1px solid white;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
   margin-top: -1px;
 }
 
 .buttons {
-  margin: 5% auto;
+  margin: 10% auto;
   width: max-content;
   display: flex;
-  gap: 70px;
+  gap: 180px;
+  font-size: 58px;
+  color: white;
 }
 
 .buttons > div {
