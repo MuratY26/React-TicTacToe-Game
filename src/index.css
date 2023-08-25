@@ -45,10 +45,11 @@ code {
 body {
   background-color: rgb(50, 50, 99);
   min-width: 520px;
+  transform: scale(0.5);
 }
 
 .app {
-  margin: 5rem auto;
+  margin: 3rem auto;
   display: flex;
   width: 80%;
   justify-content: center;
